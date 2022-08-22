@@ -1,0 +1,57 @@
+/*aplico el estilo a todo*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*aplico el estilo a */
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://img.freepik.com/foto-gratis/imagen-primer-plano-programador-trabajando-su-escritorio-oficina_1098-18707.jpg?w=740&t=st=1660848970~exp=1660849570~hmac=19c23b8cd2456792c08af13eb4827f51a51604058d556f1eb651100091981a21");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* aplico el estilo a la caja de perfil */
+.profile-box{
+    background: #16062b;
+    text-align: center;
+    padding: 40px 90px;
+    color: #ffffff;
+    position: relative;
+    border-radius: 30px;
+    width: 45%;
+}   
+/*aplico estilo a la foto de perfil*/
+.profile-pic{
+    width: 150px;
+    border-radius: 50%;
+    background: #ffffff;
+    margin-top: 40px;
+    
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    animation-duration: 3s;
+}
+
+h2{
+    font-family: 'Dosis', sans-serif;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, p{
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
